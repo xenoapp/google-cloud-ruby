@@ -1,5 +1,7 @@
+inherit_gem: 
+  google-style: google-style.yml
+
 AllCops:
-  TargetRubyVersion: 2.2
   Exclude:
     - "grafeas-client.gemspec"
     - "lib/**/*"

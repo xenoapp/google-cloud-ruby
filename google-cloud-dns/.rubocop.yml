@@ -1,3 +1,6 @@
+inherit_gem: 
+  google-style: google-style.yml
+
 AllCops:
   Exclude:
     - "acceptance/**/*"
@@ -5,7 +8,6 @@ AllCops:
     - "Rakefile"
     - "support/**/*"
     - "test/**/*"
-  TargetRubyVersion: 2.2
 
 Documentation:
   Enabled: false

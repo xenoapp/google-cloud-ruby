@@ -5,7 +5,7 @@ require "erb"
 require "fileutils"
 require "timeout"
 
-KOKORO_RUBY_VERSIONS = ["2.3.8", "2.4.5", "2.5.5", "2.6.3"].freeze
+KOKORO_RUBY_VERSIONS = ["2.4.6", "2.5.5", "2.6.3"].freeze
 
 task :bundleupdate do
   valid_gems.each do |gem|

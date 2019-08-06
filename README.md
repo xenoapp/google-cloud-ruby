@@ -1186,7 +1186,7 @@ $ gem install google-cloud-video_intelligence
 
 ## Supported Ruby Versions
 
-These libraries are currently supported on Ruby 2.3+.
+These libraries are currently supported on Ruby 2.4+.
 
 Google provides official support for Ruby versions that are actively supported
 by Ruby Core—that is, Ruby versions that are either in normal maintenance or

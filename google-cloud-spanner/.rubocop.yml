@@ -1,4 +1,7 @@
 
+inherit_gem: 
+  google-style: google-style.yml
+
 AllCops:
   Exclude:
     - "acceptance/**/*"
@@ -10,7 +13,6 @@ AllCops:
     - "lib/google/spanner/**/*"
     - "lib/google/cloud/spanner/v1/**/*"
     - "lib/google/cloud/spanner/admin/**/*"
-  TargetRubyVersion: 2.2
 
 Documentation:
   Enabled: false
