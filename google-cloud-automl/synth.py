@@ -243,3 +243,6 @@ s.replace(
     'github.io/google-cloud-ruby/#/docs/google-cloud-automl/latest/.*$',
     'dev/ruby/google-cloud-automl/latest'
 )
+
+
+ruby.update_gemspec('google-cloud-automl.gemspec')

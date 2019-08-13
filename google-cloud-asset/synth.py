@@ -106,6 +106,7 @@ s.replace(
 
 # https://github.com/googleapis/gapic-generator/issues/2242
 
+ruby.update_gemspec('google-cloud-asset.gemspec')
 
 def escape_braces(match):
     expr = re.compile('^([^`]*(`[^`]*`[^`]*)*)([^`#\\$\\\\])\\{([\\w,]+)\\}')
